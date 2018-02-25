@@ -121,7 +121,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -177,7 +177,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#A71D5D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -275,7 +275,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EB939A</string>
+				<string>#A71D5D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -555,19 +555,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Error Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.illegal sublimelinter.underline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF4A52</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>SublimeLinter Error Underline</string>
 			<key>scope</key>
 			<string></string>
@@ -612,19 +599,6 @@
 				<string>#FFB62C</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.warning sublimelinter.underline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF4A52</string>
-				<key>foreground</key>
-				<string>#fff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1201,7 +1175,7 @@
 			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
-			<string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
+			<string>constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution punctuation.definition.tag.html, punctuation.definition.tag.begin.html,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
