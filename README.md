@@ -1,5 +1,7 @@
 # Infinity Theme
 
+![Image of Infinity for Sublime Text](assets/images/sublime/html.png)
+
 **Infinity Theme** is a Theme for **Sublime Text 3**.
 
 This is in **Progress...**
