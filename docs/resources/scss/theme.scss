@@ -32,12 +32,18 @@ label {
   text-transform: uppercase;
 }
 
+.editor-image {
+  img {
+    width: 100%;
+  }
+}
+
 pre {
   display: flex;
-  margin-top: 8px;
+  margin-top: $theme-baseline;
   background-color: rgba(144, 164, 174, 0.12);
-  border-radius: 4px;
-  padding: 9px 12px 10px;
+  border-radius: 2px;
+  padding: $theme-baseline $theme-baseline * 2;
   position: relative;
   overflow-x: scroll;
 
@@ -48,7 +54,6 @@ pre {
     font-size: 1rem;
     font-weight: 400;
     color: #718ca1;
-    line-height: 21px;
   }
 }
 
