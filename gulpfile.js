@@ -13,8 +13,8 @@ const outputStyle = ['expanded', 'nested', 'compact', 'compressed'];
 
 const sourceSCSS = 'docs/resources/scss/*.scss';
 const sourceJS = 'docs/resources/js/*.js';
-const distCSS = 'docs/public/styles/';
-const distJS = 'docs/public/scripts/';
+const distCSS = 'docs/styles/';
+const distJS = 'docs/scripts/';
 
 
 gulp.task('browserSync', () => {
