@@ -166,7 +166,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF80E1</string>
+				<string>#A71D5D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -188,9 +188,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#800F00</string>
+				<string>#E53935</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -459,7 +459,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#8FDDF630</string>
+				<string>#DDDDDD96</string>
 			</dict>
 		</dict>
 		<dict>
@@ -919,7 +919,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80FFBB</string>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1206,7 +1206,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.infinity_light</string>
+	<string>theme.light.infinity_light</string>
 	<key>author</key>
 	<string>Mauro Reis Vieira</string>
 	<key>name</key>
