@@ -184,7 +184,7 @@
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalid</string>
+			<string>invalid, invalid.illegal, invalid.broken</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -396,7 +396,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EB939A</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -459,7 +459,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#DDDDDD96</string>
+				<string>#90A4AE21</string>
 			</dict>
 		</dict>
 		<dict>
@@ -498,7 +498,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#6182B8</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -511,7 +511,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#6182B8</string>
+				<string>#FF5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -526,7 +526,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#6182B8</string>
+				<string>#7C4DFF</string>
 			</dict>
 		</dict>
 		<dict>
