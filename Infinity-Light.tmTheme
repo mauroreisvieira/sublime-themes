@@ -262,7 +262,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFB054</string>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -401,7 +401,7 @@ meta.property-group support.constant.property-value.stylus, meta.property-value 
 			<key>name</key>
 			<string>CSS Additional Constants</string>
 			<key>scope</key>
-			<string>meta.property-value support.constant.named-color.css, 
+			<string>meta.property-value support.constant.named-color.css,
 meta.property-value support.constant.named-color.sass,
 meta.property-value support.constant.named-color.scss,
 meta.property-value support.constant.named-color.less,
@@ -1284,7 +1284,29 @@ storage.type.function.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB62C</string>
+				<string>#008B94</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Key - Level 9</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80CBC4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Key - Level 10</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1F4662</string>
 			</dict>
 		</dict>
 	</array>
