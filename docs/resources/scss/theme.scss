@@ -1,0 +1,80 @@
+@import "utilities/variables";
+@import "utilities/helpers";
+@import "utilities/typography";
+@import "utilities/button";
+@import "utilities/grid";
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: $theme-background-color;
+  font-family: 'Fira Mono', Courier, monospace;
+  color: $theme-text-color;
+  line-height: 1.5;
+  font-feature-settings: "liga","kern";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+label {
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.editor-image {
+  img {
+    width: 100%;
+  }
+}
+
+pre {
+  display: flex;
+  margin-top: $theme-baseline;
+  background-color: rgba(144, 164, 174, 0.12);
+  border-radius: 2px;
+  padding: $theme-baseline $theme-baseline * 2;
+  position: relative;
+  overflow-x: scroll;
+
+  code {
+    display: inline-block;
+    counter-reset: linenumbers;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #718ca1;
+  }
+}
+
+.color-palette {
+  display: flex;
+  padding: 0;
+  margin: 0 0 $theme-baseline * 6;
+  list-style: none;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 50px;
+    margin: $theme-baseline * 2;
+    font-weight: 500;
+    border-raduis: 2px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

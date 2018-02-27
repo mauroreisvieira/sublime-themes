@@ -719,11 +719,12 @@ meta.constructor.argument.stylus</string>
 			<key>name</key>
 			<string>JavaScript Function</string>
 			<key>scope</key>
-			<string>storage.type.function.js</string>
+			<string>storage.type.function.js
+storage.type.function.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB62C</string>
+				<string>#008B94</string>
 				<key>background</key>
 				<string></string>
 			</dict>
