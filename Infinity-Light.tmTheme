@@ -451,7 +451,7 @@ meta.constructor.argument.stylus</string>
 				<key>background</key>
 				<string>#E53935</string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#fff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -482,7 +482,7 @@ meta.constructor.argument.stylus</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Raw Markup</string>
+			<string>Markup Raw</string>
 			<key>scope</key>
 			<string>markup.raw</string>
 			<key>settings</key>
@@ -493,7 +493,7 @@ meta.constructor.argument.stylus</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Block Quote</string>
+			<string>Markup Block Quote</string>
 			<key>scope</key>
 			<string>markup.quote</string>
 			<key>settings</key>
@@ -506,7 +506,7 @@ meta.constructor.argument.stylus</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>List</string>
+			<string>Markup List</string>
 			<key>scope</key>
 			<string>markup.list</string>
 			<key>settings</key>
@@ -1262,7 +1262,7 @@ storage.type.function.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB62C</string>
+				<string>#91B859</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1307,6 +1307,61 @@ storage.type.function.ts</string>
 			<dict>
 				<key>foreground</key>
 				<string>#1F4662</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB62C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D95468</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup - Table</string>
+			<key>scope</key>
+			<string>markup.table</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#68A1F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Link Anchor</string>
+			<key>scope</key>
+			<string>constant.other.reference.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 	</array>
