@@ -482,6 +482,21 @@ meta.constructor.argument.stylus</string>
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#7C4DFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markup Raw</string>
 			<key>scope</key>
 			<string>markup.raw</string>
@@ -545,17 +560,39 @@ meta.constructor.argument.stylus</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Heading</string>
+			<string>Markup - Underline</string>
 			<key>scope</key>
-			<string>markup.heading</string>
+			<string>markup.underline</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string> underline</string>
 				<key>foreground</key>
-				<string>#7C4DFF</string>
+				<string>#D95468</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup - Bold &amp; Italic</string>
+			<key>scope</key>
+			<string>markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold underline</string>
+				<key>foreground</key>
+				<string>#718CA1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown - Link Anchor</string>
+			<key>scope</key>
+			<string>constant.other.reference.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB62C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1131,32 +1168,6 @@ storage.type.function.ts</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup - Underline</string>
-			<key>scope</key>
-			<string>markup.underline</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> underline</string>
-				<key>foreground</key>
-				<string>#D95468</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup - Bold &amp; Italic</string>
-			<key>scope</key>
-			<string>markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> bold underline</string>
-				<key>foreground</key>
-				<string>#718CA1</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Entity</string>
 			<key>scope</key>
 			<string>entity</string>
@@ -1245,28 +1256,6 @@ storage.type.function.ts</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Search Results Lines</string>
-			<key>scope</key>
-			<string>entity.name.filename.find-in-files</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#8BD49C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Search Results Nums</string>
-			<key>scope</key>
-			<string>constant.numeric.line-number.find-in-files - match</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#91B859</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JSON Key - Level 7</string>
 			<key>scope</key>
 			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
@@ -1311,6 +1300,28 @@ storage.type.function.ts</string>
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Search Results Lines</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8BD49C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Search Results Nums</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#91B859</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>SublimeLinter Warning</string>
 			<key>scope</key>
 			<string>sublimelinter.mark.warning</string>
@@ -1351,17 +1362,6 @@ storage.type.function.ts</string>
 			<dict>
 				<key>foreground</key>
 				<string>#68A1F0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markdown - Link Anchor</string>
-			<key>scope</key>
-			<string>constant.other.reference.link.markdown</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFB62C</string>
 			</dict>
 		</dict>
 	</array>
