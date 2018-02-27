@@ -657,7 +657,7 @@ meta.constructor.argument.stylus</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffc600</string>
+				<string>#FFC600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1228,7 +1228,7 @@ meta.constructor.argument.stylus</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6182B8</string>
+				<string>#539AFC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1258,6 +1258,28 @@ meta.constructor.argument.stylus</string>
 			<string>Search Results Nums</string>
 			<key>scope</key>
 			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB62C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Key - Level 7</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6182B8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Key - Level 8</string>
+			<key>scope</key>
+			<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
