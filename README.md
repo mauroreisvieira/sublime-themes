@@ -1,8 +1,6 @@
-# Infinity Theme
+# Sublime Themes
 
 **Sublime Themes** is a folder width Custom Themes for **Sublime Text 3**.
-
-This is in **Progress...**
 
 ## Installation
 
