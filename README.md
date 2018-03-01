@@ -1,18 +1,14 @@
 # Infinity Theme
 
-**Infinity Theme** is a Theme for **Sublime Text 3**.
+**Sublime Themes** is a folder width Custom Themes for **Sublime Text 3**.
 
 This is in **Progress...**
 
 ## Installation
 
-With [Package Control](https://packagecontrol.io/):
+### Manually:
 
-- TODO
-
-Manually:
-
- - [Download](https://codeload.github.com/maurovieirareis/infinity-sublime-theme/zip/master) and unzip it into your **Packages folder** (go to `Preferences > Browse Packages...` menu item to open this folder)
+ - [Download](https://codeload.github.com/maurovieirareis/sublime-themes/zip/master) and unzip it into your **Packages folder** (go to `Preferences > Browse Packages...` menu item to open this folder)
 
 ## License
 
