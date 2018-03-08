@@ -71,7 +71,7 @@
 			<key>name</key>
 			<string>Tag</string>
 			<key>scope</key>
-			<string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter</string>
+			<string>entity.name.tag, meta.tag.sgml</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -116,7 +116,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -434,7 +434,7 @@ meta.constructor.argument.stylus</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -562,7 +562,7 @@ meta.constructor.argument.stylus</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -575,7 +575,7 @@ meta.constructor.argument.stylus</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -637,7 +637,7 @@ entity.name.type.class.php,</string>
 				<key>background</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -827,7 +827,7 @@ storage.type.function.ts</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -915,7 +915,7 @@ storage.type.function.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 				<key>background</key>
 				<string></string>
 			</dict>
@@ -986,7 +986,7 @@ storage.type.function.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1187,7 +1187,7 @@ entity.other.attribute-name.blade,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1264,7 +1264,7 @@ entity.other.attribute-name.blade,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1286,7 +1286,7 @@ entity.other.attribute-name.blade,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1297,7 +1297,18 @@ entity.other.attribute-name.blade,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5370</string>
+				<string>#ff5370</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Error Gutter and Code</string>
+			<key>scope</key>
+			<string>region.redish markup.deleted.sublime_linter markup.error.sublime_linter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff5370</string>
 			</dict>
 		</dict>
 	</array>
